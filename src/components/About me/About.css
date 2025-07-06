@@ -1,0 +1,56 @@
+.div-about{
+    background-color: #f2f4ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h1-about{
+    margin-top: 40px;
+    font-family: "Urbanist", sans-serif;
+    color: #5777ff;
+}
+
+.p-objective{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-family: "Urbanist", sans-serif;
+    color: #757575;
+}
+
+.div-soft-skills{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.soft-skills{
+    width: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-size: 1.4rem;
+    font-family: "Urbanist", sans-serif;
+    
+    box-shadow: 0 1px 2px #000;
+    border-radius: 5px;
+    margin: 40px;
+    padding: 10px;
+
+    transition: transform 100ms ease-in-out;
+}
+
+.soft-skills:hover{
+    transform: scale(1.05);
+    box-shadow: 0 1px 2px #000;
+}
+
+.tec-icon{
+    font-size: 2rem;
+    color: #5777ff;
+    margin-bottom: 20px;
+}

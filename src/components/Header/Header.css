@@ -1,0 +1,23 @@
+header{
+    height: 10dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+header button{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+header button:hover{
+    background-color: #5777ff;
+    padding: 10px;
+    transition: 100ms;
+    border-radius: 20px;
+    color: white;
+}

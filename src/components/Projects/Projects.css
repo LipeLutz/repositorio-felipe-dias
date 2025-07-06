@@ -1,0 +1,104 @@
+.container-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 700px;
+}
+
+.container-projects-h1 {
+  margin: 40px 0px;
+  font-family: "Urbanist", sans-serif;
+  color: #5777ff;
+}
+
+.div-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+
+.project-card {
+  position: relative;
+  width: 500px;
+  height: 296px;
+  overflow: hidden;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.project-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 0.8;
+}
+
+.project-card .div-project-details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f2f4ff;
+
+  padding: 8px 20px;
+
+
+  max-height: 40px;
+  overflow: hidden;
+
+  transition: max-height 0.4s ease;
+}
+
+.project-card:hover .div-project-details {
+  max-height: 100%;
+}
+
+.h1-project-detail {
+  color: #6E6E6E;
+  font-family: "Poppins", sans-serif;
+}
+
+.project-card .div-project-details p {
+  margin: 8px 0px;
+  padding: 0px 20px 0px 0px;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  color: #6E6E6E;
+}
+
+.info-stack {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.info-stack-icon {
+  color: #5777ff;
+  font-size: 1.3rem;
+}
+
+.div-see-projects{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-see-projects {
+  color: #FFF;
+  background-color: #5777ff;
+
+  border-radius: 50px;
+  padding: 10px 30px;
+
+  font-size: 1.3rem;
+  font-family: "Urbanist", sans-serif;
+
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}

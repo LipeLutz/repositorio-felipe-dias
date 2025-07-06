@@ -1,0 +1,16 @@
+:root{
+    --fundo-principal: #F5F7FB;
+    --fundo-2: #E8EBF2;
+    --fundo-3: #DDE0EA; 
+    --texto-primario: #1F1F1F;
+    --texto-secundario: #6E6E6E;
+    --cor-destaque: #4A90E2;
+    --fonte-titulo: "Poppins", sans-serif;
+    --fonte-texto: "Roboto", sans-serif;
+    --fonte-alternativa: "Urbanist", sans-serif;
+}
+
+body{
+    /* background-color: #E3E3E3; */
+    background-color: var(--fundo-3);
+}
