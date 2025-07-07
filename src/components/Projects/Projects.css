@@ -28,6 +28,12 @@
   overflow: hidden;
   border-radius: 12px;
   cursor: pointer;
+
+  transition: transform 100ms ease-in-out;
+}
+
+.project-card:hover{
+  transform: scale(1.05);
 }
 
 .project-card img {
@@ -51,7 +57,7 @@
   max-height: 40px;
   overflow: hidden;
 
-  transition: max-height 0.4s ease;
+  transition: max-height 0.9s ease-in-out;
 }
 
 .project-card:hover .div-project-details {
@@ -101,4 +107,10 @@
   border: none;
   cursor: pointer;
   text-decoration: none;
+
+  transition: transform 100ms ease-in-out;
+}
+
+.btn-see-projects:hover{
+  transform: scale(1.05);
 }
