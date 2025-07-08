@@ -10,9 +10,9 @@ import { TbBrandFramerMotion } from 'react-icons/tb'
 import { IoLogoJavascript } from 'react-icons/io5'
 import { IoIosArrowRoundForward } from 'react-icons/io'
 
-export const Projects = () =>{
+export const Projects = ({sectionRef2}) =>{
     return(
-        <div className='container-projects'>
+        <div ref={sectionRef2} className='container-projects'>
             <h1 className='container-projects-h1'>Projetos </h1>
             <div className="div-projects">
                 <div className="project-card">

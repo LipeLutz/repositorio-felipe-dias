@@ -4,9 +4,9 @@ import { IoLogoJavascript } from 'react-icons/io5'
 import { SiJest, SiTestinglibrary, SiTypescript } from 'react-icons/si'
 import { DiJqueryLogo } from 'react-icons/di'
 
-export const About = () =>{
+export const About = ({sectionRef1}) =>{
     return(
-        <div className="div-about">
+        <div ref={sectionRef1} className="div-about">
             <h1 className='h1-about'>Sobre mim</h1>
             <p className='p-objective'>Meu objetivo é transformar ideias em experiências web intuitivas usando:</p>
             <div className='div-soft-skills'>

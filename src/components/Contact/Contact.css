@@ -1,0 +1,115 @@
+.container-contact{
+    background-color: #f2f4ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.div-contact-info{
+    margin-top: 60px;
+}
+
+.div-contact-info h2{
+    color: #5777ff;
+    font-size: 1.8rem;
+    font-family: "Urbanist", sans-serif;
+    margin-bottom: 20px;
+}
+
+.div-contact-info h1{
+    font-family: "Urbanist", sans-serif;
+    margin-bottom: 20px;
+}
+
+.div-my-info-title{
+    font-family: "Urbanist", sans-serif;
+    font-size: 1.4rem;
+}
+
+.div-icon-info{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: "Urbanist", sans-serif;
+    font-size: 1.1rem;
+    color: #6E6E6E;
+    margin: 20px 0px;
+}
+
+.div-my-info h3{
+    font-family: "Urbanist", sans-serif;
+}
+
+.form-contact{
+    max-width: 700px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+    margin-top: 60px;
+    width: 50%;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.div-form-contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.div-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-input label{
+    font-family: "Urbanist", sans-serif;
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: #6E6E6E;
+    margin-bottom: 10px;
+}
+
+.div-input input{
+    width: 300px;
+    font-size: 1rem;
+    font-family: "Urbanist", sans-serif;
+    color: #6E6E6E;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #6E6E6E;
+}
+
+.div-input textarea{
+    width: 650px;
+    font-family: "Urbanist", sans-serif;
+    font-size: 1rem;
+    color: #6E6E6E;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #6E6E6E;
+}
+
+.btn-send-form{
+    width: 200px;
+    font-size: 1.3rem;
+    font-family: "Urbanist", sans-serif;
+    background-color: #5777ff;
+    color: #f2f4ff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+
+    transition: transform 100ms ease-in-out;
+}
+
+.btn-send-form:hover{
+    transform: scale(1.05);
+}
