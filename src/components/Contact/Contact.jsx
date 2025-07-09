@@ -1,4 +1,5 @@
 import './Contact.css'
+import './Contact-media.css'
 
 import { HiOutlineMail } from "react-icons/hi"
 import { SlLocationPin } from "react-icons/sl"
@@ -38,23 +39,23 @@ export const Contact = ({sectionRef3}) =>{
                 <div className='div-form-contact'>
                     <div className='div-input'>
                         <label htmlFor="input-name">Nome</label>
-                        <input type="text" name="input-name" placeholder="Nome" required/>
+                        <input type="text" id="input-name" placeholder="Nome" required/>
                     </div>
                     <div className='div-input'>
                         <label htmlFor="input-email">Email</label>
-                        <input type="email" name="input-email" placeholder="Seu melhor email" required/>
+                        <input type="email" id="input-email" placeholder="Seu melhor email" required/>
                     </div>
                     <div className='div-input'>
                         <label htmlFor="input-number">Telefone (opcional)</label>
-                        <input type="number" placeholder="Seu melhor número" name="input-number"/>
+                        <input type="tel" placeholder="Seu melhor número" id="input-number"/>
                     </div>
                     <div className='div-input'>
                         <label htmlFor="input-company">Empresa (opcional)</label>
-                        <input type="text" placeholder="Empresa" name="input-company"/>
+                        <input type="text" placeholder="Empresa" id="input-company"/>
                     </div>
                     <div className='div-input'>
                         <label htmlFor="input-message">Mensagem</label>
-                        <textarea name="input-messae" id="" placeholder="Sua mensagem"/>
+                        <textarea id="input-message" placeholder="Sua mensagem"/>
                     </div>
                 </div>
 

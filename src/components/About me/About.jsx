@@ -1,5 +1,6 @@
 import { FaCss3, FaHtml5, FaReact, FaSass } from 'react-icons/fa'
 import './About.css'
+import './About-media.css'
 import { IoLogoJavascript } from 'react-icons/io5'
 import { SiJest, SiTestinglibrary, SiTypescript } from 'react-icons/si'
 import { DiJqueryLogo } from 'react-icons/di'

@@ -1,0 +1,168 @@
+@media (max-width: 1400px) {
+  .container-projects-h1 {
+    font-size: 2rem;
+  }
+
+  .project-card {
+    width: 450px;
+    height: 270px;
+  }
+
+  .div-projects {
+    gap: 80px;
+  }
+
+  .btn-see-projects {
+    font-size: 1.2rem;
+    padding: 9px 26px;
+  }
+
+  .arrow-icon {
+    font-size: 1.9rem;
+  }
+}
+
+/* <= 1200px */
+@media (max-width: 1200px) {
+  .container-projects-h1 {
+    font-size: 1.9rem;
+  }
+
+  .project-card {
+    width: 400px;
+    height: 240px;
+  }
+
+  .div-projects {
+    gap: 70px;
+  }
+
+  .btn-see-projects {
+    font-size: 1.1rem;
+    padding: 8px 24px;
+  }
+
+  .arrow-icon {
+    font-size: 1.8rem;
+  }
+}
+
+/* <= 992px */
+@media (max-width: 992px) {
+  .container-projects-h1 {
+    font-size: 1.8rem;
+  }
+
+  .project-card {
+    width: 350px;
+    height: 210px;
+  }
+
+  .div-projects {
+    gap: 60px;
+  }
+
+  .h1-project-detail {
+    font-size: 1.1rem;
+  }
+
+  .project-card .div-project-details p {
+    font-size: 0.95rem;
+  }
+
+  .info-stack-icon {
+    font-size: 1.2rem;
+  }
+
+  .btn-see-projects {
+    font-size: 1rem;
+    padding: 7px 22px;
+  }
+
+  .arrow-icon {
+    font-size: 1.7rem;
+  }
+}
+
+/* <= 768px */
+@media (max-width: 768px) {
+  .container-projects-h1 {
+    font-size: 1.7rem;
+  }
+
+  .project-card {
+    width: 400px;
+    height: 180px;
+  }
+
+  .div-projects {
+    gap: 40px;
+  }
+
+  .h1-project-detail {
+    font-size: 1rem;
+  }
+
+  .div-project-details h1{
+    font-size: 1.6rem;
+  }
+
+  .project-card .div-project-details p {
+    font-size: 0.9rem;
+  }
+
+  .info-stack-icon {
+    font-size: 1.1rem;
+  }
+
+  .btn-see-projects {
+    font-size: 0.95rem;
+    padding: 6px 20px;
+  }
+
+  .arrow-icon {
+    font-size: 1.6rem;
+  }
+}
+
+/* <= 576px */
+@media (max-width: 576px) {
+  .container-projects-h1 {
+    font-size: 2rem;
+  }
+
+  .div-projects {
+    gap: 30px;
+  }
+
+  .project-card {
+    width: 400px;
+    height: 230px;
+  }
+
+
+  .h1-project-detail {
+    font-size: 0.95rem;
+  }
+
+  .div-project-details h1{
+    font-size: 1.6rem;
+  }
+
+  .project-card .div-project-details p {
+    font-size: 0.85rem;
+  }
+
+  .info-stack-icon {
+    font-size: 1rem;
+  }
+
+  .btn-see-projects {
+    font-size: 1.1rem;
+    padding: 15px 18px;
+  }
+
+  .arrow-icon {
+    font-size: 1.5rem;
+  }
+}

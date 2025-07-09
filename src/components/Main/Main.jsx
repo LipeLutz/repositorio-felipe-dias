@@ -1,4 +1,5 @@
 import './Main.css'
+import './Main-media.css'
 import IMG from '../../../public/assets/my-photo.jpg'
 import CV from '../../../public/assets/curriculo-felipe-dias.pdf'
 import { IoIosArrowRoundForward } from 'react-icons/io'
@@ -33,7 +34,7 @@ export const Main = () =>{
             </div>
 
             <div className='div-img'>
-                <img src={IMG} alt="" style={{maxWidth:'400px', borderRadius:'300px'}}/>
+                <img src={IMG} alt="" style={{maxWidth:'100%', borderRadius:'300px'}}/>
             </div>
         </main>
     )

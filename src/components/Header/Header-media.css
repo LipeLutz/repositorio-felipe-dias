@@ -1,0 +1,49 @@
+/* <= 1400px */
+@media (max-width: 1400px) {
+    header {
+        gap: 50px;
+    }
+    header button {
+        font-size: 18px;
+    }
+}
+
+/* <= 1200px */
+@media (max-width: 1200px) {
+    header {
+        gap: 40px;
+    }
+    header button {
+        font-size: 17px;
+    }
+}
+
+/* <= 992px */
+@media (max-width: 992px) {
+    header {
+        gap: 50px;
+    }
+    header button {
+        font-size: 16px;
+    }
+}
+
+/* <= 768px */
+@media (max-width: 768px) {
+    header {
+        gap: 50px;
+    }
+    header button {
+        font-size: 17px;
+    }
+}
+
+/* <= 576px */
+@media (max-width: 576px) {
+    header {
+        gap: 50px;
+    }
+    header button {
+        font-size: 16px;
+    }
+}

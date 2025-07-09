@@ -1,4 +1,5 @@
 import './Header.css'
+import './Header-media.css'
 
 export const Header = ({scrollToSection1, scrollToSection2, scrollToSection3}) =>{
 

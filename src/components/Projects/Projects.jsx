@@ -1,4 +1,5 @@
 import './Projects.css'
+import './Projects-media.css'
 
 import { FaCss3, FaHtml5, FaReact } from "react-icons/fa6"
 import { SiFirebase } from "react-icons/si"
