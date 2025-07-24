@@ -90,7 +90,7 @@ export const Contact = ({sectionRef3}) =>{
                         </div>
                         <div className='div-input'>
                             <label htmlFor="input-number">Telefone (opcional)</label>
-                            <input type="tel" value={phone} placeholder="Seu melhor número" id="input-number" onChange={(e) => setPhone(e.target.value)}/>
+                            <input type="number" value={phone} placeholder="Seu melhor número" id="input-number" onChange={(e) => setPhone(e.target.value)}/>
                         </div>
                         <div className='div-input'>
                             <label htmlFor="input-company">Empresa (opcional)</label>
