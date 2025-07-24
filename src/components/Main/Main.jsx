@@ -24,7 +24,7 @@ export const Main = () =>{
                </div>
 
                <div className='div-contact-icons'>
-                    <a target='blank' href='https://www.linkedin.com/in/felipe-lutz-282589260/' className='contact-icons'>
+                    <a target='blank' href='https://www.linkedin.com/in/felipe-dias-282589260/' className='contact-icons'>
                         <FaLinkedinIn />
                     </a>
                     <a className='contact-icons' target='blank' href='https://github.com/LipeLutz'>

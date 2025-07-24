@@ -3,13 +3,41 @@ import './Contact-media.css'
 
 import { HiOutlineMail } from "react-icons/hi"
 import { SlLocationPin } from "react-icons/sl"
+import emailjs from '@emailjs/browser'
+import { useState } from 'react'
 
 export const Contact = ({sectionRef3}) =>{
 
-    const handleSubmit = (e) =>{
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [phone, setPhone] = useState('')
+    const [enterprise, setEnterprise] = useState('')
+    const [message, setMessage] = useState('')
+
+    const handleSubmit = async (e) =>{
         e.preventDefault()
 
-        console.log('Formulário enviado')
+        if(name === '' || email === '' || message === ''){
+            return
+        }
+
+        const templateParams = {
+            from_name: name,
+            email: email,
+            message: message
+        }
+        
+        await emailjs.send("service_rkok0sv", "template_gwslibd", templateParams, "zg_e_b6frdBaxVWJJ")
+            .then((response) => {
+                console.log("Email enviado", response.status)
+                setName("")
+                setEmail("")
+                setPhone("")
+                setEnterprise("")
+                setMessage("")
+            }, (err) => {
+                console.log("Erro:", err)
+            })
     }
 
     return(
@@ -39,23 +67,23 @@ export const Contact = ({sectionRef3}) =>{
                 <div className='div-form-contact'>
                     <div className='div-input'>
                         <label htmlFor="input-name">Nome</label>
-                        <input type="text" id="input-name" placeholder="Nome" required/>
+                        <input type="text" id="input-name" value={name} placeholder="Nome" required onChange={(e) => setName(e.target.value)}/>
                     </div>
                     <div className='div-input'>
                         <label htmlFor="input-email">Email</label>
-                        <input type="email" id="input-email" placeholder="Seu melhor email" required/>
+                        <input type="email" id="input-email" value={email} placeholder="Seu melhor email" required onChange={(e) => setEmail(e.target.value)}/>
                     </div>
                     <div className='div-input'>
                         <label htmlFor="input-number">Telefone (opcional)</label>
-                        <input type="tel" placeholder="Seu melhor número" id="input-number"/>
+                        <input type="tel" value={phone} placeholder="Seu melhor número" id="input-number" onChange={(e) => setPhone(e.target.value)}/>
                     </div>
                     <div className='div-input'>
                         <label htmlFor="input-company">Empresa (opcional)</label>
-                        <input type="text" placeholder="Empresa" id="input-company"/>
+                        <input type="text" value={enterprise} placeholder="Empresa" id="input-company" onChange={(e) => setEnterprise(e.target.value)}/>
                     </div>
                     <div className='div-input'>
                         <label htmlFor="input-message">Mensagem</label>
-                        <textarea id="input-message" placeholder="Sua mensagem"/>
+                        <textarea id="input-message" value={message} placeholder="Sua mensagem" onChange={(e) => setMessage(e.target.value)} required/>
                     </div>
                 </div>
 
